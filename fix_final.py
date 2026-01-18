@@ -2,11 +2,16 @@ import os
 
 path = 'DramaBox_5.1.1/smali_classes7/com/google/android/exoplayer2/ui/StyledPlayerControlView.smali'
 
-# قراءة الملف النظيف
+# قراءة الملف الأصلي النظيف
 with open(path, 'r') as f:
     content = f.read()
 
-# 1. كود الزر (لاحظ المسافات البادئة 4 spaces للأوامر)
+# التحقق: هل التعديل موجود مسبقاً؟
+if 'dramabox_download_listener' in content:
+    print("⚠️ الملف معدل مسبقاً! لن يتم التعديل لتجنب التكرار.")
+    exit()
+
+# 1. كود الزر (مع مسافات بادئة دقيقة)
 button_code = """
     sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_vr:I
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -18,12 +23,15 @@ button_code = """
 :cond_vr_done
 """
 
-# البحث عن نقطة الحقن واستبدالها مرة واحدة
-target = 'sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_settings:I'
-if target in content and ':cond_vr_done' not in content:
-    content = content.replace(target, target + button_code)
+# البحث عن مكان الزر القديم (Settings) وحقن الزر الجديد بعده
+target_str = 'sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_settings:I'
+if target_str in content:
+    content = content.replace(target_str, target_str + button_code)
+else:
+    print("❌ لم يتم العثور على مكان الحقن!")
+    exit()
 
-# 2. كود الميثود (تم إصلاح خطأ الفاصلة هنا: Ljava/lang/String;Landroid... بدون فواصل)
+# 2. كود الميثود (تم إصلاح خطأ الفاصلة: لاحظ Ljava/lang/String;Landroid... بدون فاصلة)
 download_method = """
 .method public downloadCurrentVideo()V
     .registers 5
@@ -53,11 +61,11 @@ download_method = """
 .end method
 """
 
-if "downloadCurrentVideo" not in content:
-    content += download_method
+# إضافة الميثود في نهاية الملف
+content += download_method
 
-# حفظ الملف
+# حفظ التعديلات
 with open(path, 'w') as f:
     f.write(content)
-    
-print("تم إصلاح الملف: إزالة التكرارات وتصحيح أقواس الميثود.")
+
+print("✅ تم إصلاح الملف بنجاح: إزالة التكرار وتصحيح الأقواس.")
