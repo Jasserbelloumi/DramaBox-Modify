@@ -623,6 +623,15 @@
 
     .line 57
     sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_settings:I
+    sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_vr:I
+    invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    move-result-object v2
+    if-eqz v2, :cond_vr_done
+    new-instance v3, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;
+    invoke-direct {v3, p0}, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;-><init>(Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    :cond_vr_done
+
 
     sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_vr:I
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

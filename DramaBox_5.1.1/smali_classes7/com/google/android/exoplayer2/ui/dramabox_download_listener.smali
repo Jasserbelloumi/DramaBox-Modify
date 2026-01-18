@@ -12,8 +12,9 @@
 .end method
 
 .method public onClick(Landroid/view/View;)V
-    .registers 2
-    iget-object p1, p0, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;->a:Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;
-    invoke-virtual {p1}, Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;->downloadCurrentVideo()V
+    .registers 3
+    .line 1
+    iget-object v0, p0, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;->a:Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;
+    invoke-virtual {v0}, Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;->downloadCurrentVideo()V
     return-void
 .end method

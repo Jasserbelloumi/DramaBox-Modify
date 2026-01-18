@@ -1,31 +1,25 @@
 import os
 
-file_path = 'DramaBox_5.1.1/smali_classes7/com/google/android/exoplayer2/ui/StyledPlayerControlView.smali'
+path = 'DramaBox_5.1.1/smali_classes7/com/google/android/exoplayer2/ui/StyledPlayerControlView.smali'
+with open(path, 'r', encoding='utf-8') as f:
+    content = f.read()
 
-with open(file_path, 'r') as f:
-    lines = f.readlines()
-
-new_lines = []
-logic_injected = False
-
-# الكود البرمجي للزر
-button_logic = """
+# الكود البرمجي للزر بدون علامات هروب معقدة
+button_code = """
     sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_vr:I
-    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
     move-result-object v2
     if-eqz v2, :cond_vr_done
     new-instance v3, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;
-    invoke-direct {v3, v1}, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;-><init>(Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;)V
+    invoke-direct {v3, p0}, Lcom/google/android/exoplayer2/ui/dramabox_download_listener;-><init>(Lcom/google/android/exoplayer2/ui/StyledPlayerControlView;)V
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
     :cond_vr_done
 """
 
-for line in lines:
-    new_lines.append(line)
-    # البحث عن مكان زر الإعدادات لوضع زرنا تحته
-    if 'sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_settings:I' in line and not logic_injected:
-        new_lines.append(button_logic)
-        logic_injected = True
+# البحث عن مكان حقن الزر (بعد إعداد exo_settings)
+target = 'sget v2, Lcom/google/android/exoplayer2/ui/R$id;->exo_settings:I'
+if target in content:
+    content = content.replace(target, target + button_code)
 
 # إضافة ميثود التحميل في النهاية
 download_method = """
@@ -37,9 +31,7 @@ download_method = """
     :cond_skip
     invoke-interface {v0}, Lcom/google/android/exoplayer2/Player;->getCurrentMediaItem()Lcom/google/android/exoplayer2/MediaItem;
     move-result-object v0
-    if-nez v0, :cond_next
-    return-void
-    :cond_next
+    if-nez v0, :cond_skip
     iget-object v0, v0, Lcom/google/android/exoplayer2/MediaItem;->localConfiguration:Lcom/google/android/exoplayer2/MediaItem$LocalConfiguration;
     if-nez v0, :cond_final
     return-void
@@ -56,7 +48,9 @@ download_method = """
     return-void
 .end method
 """
-new_lines.append(download_method)
 
-with open(file_path, 'w') as f:
-    f.writelines(new_lines)
+if ".method public downloadCurrentVideo()V" not in content:
+    content += download_method
+
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(content)
