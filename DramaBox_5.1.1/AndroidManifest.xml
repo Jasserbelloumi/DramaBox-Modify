@@ -132,7 +132,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="@string/str_novel"/>
+                <data android:scheme="dramabox"/>
             </intent-filter>
         </activity>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.storymatrix.drama.activity.MultiAlbumActivity" android:screenOrientation="portrait" android:theme="@style/Album.Theme"/>
@@ -173,7 +173,7 @@
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.storymatrix.drama.download.result.DownloadResultActivity" android:screenOrientation="portrait"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.storymatrix.drama.activity.AdRtbActivity" android:screenOrientation="portrait"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.storymatrix.drama.activity.TagActivity" android:screenOrientation="portrait"/>
-        <provider android:authorities="@string/fb_authority" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider629274312371363" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
         <meta-data android:name="com.aliyun.alivc_license.licensekey" android:value="hoY2pqbBlBqLR1wgfce451d95ae9d4d839c777132fa51a4cf"/>
         <meta-data android:name="com.aliyun.alivc_license.licensefile" android:value="assets/alilicense_bundle.crt"/>
         <meta-data android:name="android.max_aspect" android:value="2.4"/>
