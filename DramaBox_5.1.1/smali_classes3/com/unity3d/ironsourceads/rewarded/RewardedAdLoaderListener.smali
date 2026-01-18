@@ -1,0 +1,16 @@
+.class public interface abstract Lcom/unity3d/ironsourceads/rewarded/RewardedAdLoaderListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract onRewardedAdLoadFailed(Lcom/ironsource/mediationsdk/logger/IronSourceError;)V
+.end method
+
+.method public abstract onRewardedAdLoaded(Lcom/unity3d/ironsourceads/rewarded/RewardedAd;)V
+.end method

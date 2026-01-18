@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="60.0dip" android:width="60.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_shelf_select__0" android:pathData="M16,8L44,8C47.314,8 50,10.686 50,14L50,49.666C50,51.323 48.657,52.666 47,52.666C46.451,52.666 45.912,52.515 45.442,52.23L30,42.846L30,42.846L14.558,52.23C13.142,53.09 11.297,52.64 10.436,51.224C10.151,50.755 10,50.216 10,49.666L10,14C10,10.686 12.686,8 16,8Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

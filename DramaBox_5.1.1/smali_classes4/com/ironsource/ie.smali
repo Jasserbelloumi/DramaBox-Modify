@@ -1,0 +1,34 @@
+.class public interface abstract Lcom/ironsource/ie;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract a()V
+.end method
+
+.method public abstract a(Landroid/app/Activity;)V
+.end method
+
+.method public abstract a(Lcom/ironsource/mediationsdk/logger/IronSourceError;)V
+.end method
+
+.method public abstract a(Lcom/unity3d/mediation/LevelPlayAdInfo;)V
+.end method
+
+.method public abstract b()V
+.end method
+
+.method public abstract b(Lcom/ironsource/mediationsdk/logger/IronSourceError;)V
+.end method
+
+.method public abstract b(Lcom/unity3d/mediation/LevelPlayAdInfo;)V
+.end method
+
+.method public abstract loadAd()V
+.end method

@@ -1,0 +1,71 @@
+.class final Landroidx/compose/ui/platform/RenderNodeLayer$UniqueDrawingIdApi29;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/compose/ui/platform/RenderNodeLayer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "UniqueDrawingIdApi29"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# static fields
+.field public static final INSTANCE:Landroidx/compose/ui/platform/RenderNodeLayer$UniqueDrawingIdApi29;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Landroidx/compose/ui/platform/RenderNodeLayer$UniqueDrawingIdApi29;
+
+    invoke-direct {v0}, Landroidx/compose/ui/platform/RenderNodeLayer$UniqueDrawingIdApi29;-><init>()V
+
+    sput-object v0, Landroidx/compose/ui/platform/RenderNodeLayer$UniqueDrawingIdApi29;->INSTANCE:Landroidx/compose/ui/platform/RenderNodeLayer$UniqueDrawingIdApi29;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    return-void
+.end method
+
+.method public static final getUniqueDrawingId(Landroid/view/View;)J
+    .locals 2
+
+    .line 1
+    .line 2
+    const-string v0, "view"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-static {p0}, LJui/final;->dramabox(Landroid/view/View;)J
+
+    .line 9
+    move-result-wide v0
+
+    .line 10
+    return-wide v0
+.end method

@@ -1,0 +1,86 @@
+.class public Lcom/google/common/collect/Maps$lop;
+.super Lcom/google/common/collect/Maps$pop;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Set;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Maps;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "lop"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Maps$pop<",
+        "TK;TV;>;",
+        "Ljava/util/Set<",
+        "Ljava/util/Map$Entry<",
+        "TK;TV;>;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/Set;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Set<",
+            "Ljava/util/Map$Entry<",
+            "TK;TV;>;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$pop;-><init>(Ljava/util/Collection;)V
+
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {p0, p1}, Lcom/google/common/collect/Sets;->dramabox(Ljava/util/Set;Ljava/lang/Object;)Z
+
+    .line 4
+    move-result p1
+
+    .line 5
+    return p1
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {p0}, Lcom/google/common/collect/Sets;->l(Ljava/util/Set;)I
+
+    .line 4
+    move-result v0
+
+    .line 5
+    return v0
+.end method

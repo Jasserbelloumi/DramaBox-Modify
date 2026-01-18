@@ -1,0 +1,45 @@
+.class public interface abstract Lio/bidmachine/media3/exoplayer/drm/O$dramaboxapp;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/bidmachine/media3/exoplayer/drm/O;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "dramaboxapp"
+.end annotation
+
+
+# static fields
+.field public static final dramabox:Lio/bidmachine/media3/exoplayer/drm/O$dramaboxapp;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    .line 2
+    new-instance v0, LQb/pop;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-direct {v0}, LQb/pop;-><init>()V
+
+    .line 6
+    .line 7
+    sput-object v0, Lio/bidmachine/media3/exoplayer/drm/O$dramaboxapp;->dramabox:Lio/bidmachine/media3/exoplayer/drm/O$dramaboxapp;
+
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract release()V
+.end method

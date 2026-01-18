@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:tag="layout/item_select_album_tab_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dz_dp_14" android:textColor="@color/color_100_B7B7C7" android:id="@id/id_tv_tab_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <View android:id="@id/line" android:background="@drawable/shape_select_album_item_line" android:layout_width="0.5dip" android:layout_height="@dimen/dz_dp_12" />
+</LinearLayout>

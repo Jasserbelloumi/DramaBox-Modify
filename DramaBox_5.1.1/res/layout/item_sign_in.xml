@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@drawable/ic_sign_in_item_bg" android:layout_width="@dimen/dz_dp_44" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dz_text_14" android:textColor="@color/color_888888_66FFFFFF" android:gravity="center" android:id="@id/tv_award_number" android:tag="layout/item_sign_in_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.5dip" android:includeFontPadding="false" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/iv_coin" android:tag="layout/item_sign_in_1" android:layout_width="@dimen/dz_dp_22" android:layout_height="@dimen/dz_dp_22" android:layout_marginTop="3.5dip" android:src="@drawable/ic_welfare_already_sign_in" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_award_number" />
+    <TextView android:textSize="@dimen/dz_text_11" android:textColor="@color/color_888888_66FFFFFF" android:gravity="center" android:id="@id/tv_sign_in_status" android:tag="layout/item_sign_in_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.5dip" android:layout_marginBottom="7.5dip" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_coin" />
+</merge>

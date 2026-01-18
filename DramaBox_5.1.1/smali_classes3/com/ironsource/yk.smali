@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/ironsource/yk;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract a(ZLjava/lang/String;Lcom/ironsource/is;)V
+.end method
+
+.method public abstract a(ZLjava/lang/String;Ljava/lang/String;)V
+.end method
+
+.method public abstract a(ZLjava/lang/String;Lorg/json/JSONObject;)V
+.end method

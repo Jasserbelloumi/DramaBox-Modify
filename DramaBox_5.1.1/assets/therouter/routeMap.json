@@ -1,0 +1,226 @@
+[
+  {
+    "path": "dramabox://theme",
+    "className": "com.storymatrix.drama.uimode.ThemeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://debug/dev",
+    "className": "com.storymatrix.drama.test.DevActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/membership",
+    "className": "com.storymatrix.drama.membership.MembershipActivityV2",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/album/fragment",
+    "className": "com.storymatrix.drama.fragment.AlbumFragment",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://album/downloadSelection",
+    "className": "com.storymatrix.drama.download.select.DownloadSelectActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://album/downloaded",
+    "className": "com.storymatrix.drama.download.result.DownloadResultActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://album/downloading",
+    "className": "com.storymatrix.drama.download.ongoing.DownloadingActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://album/download",
+    "className": "com.storymatrix.drama.download.center.DownloadCenterActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/webViewAd",
+    "className": "com.storymatrix.drama.activity.WebActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/webview",
+    "className": "com.storymatrix.drama.activity.WebActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/watchHistory",
+    "className": "com.storymatrix.drama.activity.WatchHistoryActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/wallet",
+    "className": "com.storymatrix.drama.activity.WalletActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/transactionHistory",
+    "className": "com.storymatrix.drama.activity.TransactionHistoryActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/trailer",
+    "className": "com.storymatrix.drama.activity.TrailerActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/tag",
+    "className": "com.storymatrix.drama.activity.TagActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://setting/subscribeManage",
+    "className": "com.storymatrix.drama.activity.SubManageActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://settings",
+    "className": "com.storymatrix.drama.activity.SettingActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/search",
+    "className": "com.storymatrix.drama.activity.SearchActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/redeemCode",
+    "className": "com.storymatrix.drama.activity.RedeemCodeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://recharge/center",
+    "className": "com.storymatrix.drama.activity.RechargeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/rank",
+    "className": "com.storymatrix.drama.activity.RankingActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/pointsDetail",
+    "className": "com.storymatrix.drama.activity.PointsDetailActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/album",
+    "className": "com.storymatrix.drama.activity.MultiAlbumActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://common/home",
+    "className": "com.storymatrix.drama.activity.MainActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/login",
+    "className": "com.storymatrix.drama.activity.LoginActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/languageSetting",
+    "className": "com.storymatrix.drama.activity.LanguageSettingActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://v2/gift/center",
+    "className": "com.storymatrix.drama.activity.GiftCenterActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/chapterUnlockedRecords",
+    "className": "com.storymatrix.drama.activity.ChaptersUnlockedActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/bonusReceived",
+    "className": "com.storymatrix.drama.activity.BonusReceivedActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://ad/rtb",
+    "className": "com.storymatrix.drama.activity.AdRtbActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "dramabox://profile/about",
+    "className": "com.storymatrix.drama.activity.AboutActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://storymatrix.com/login_dispatch",
+    "className": "com.dzlib.abroad.LoginDispatchActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  }
+]

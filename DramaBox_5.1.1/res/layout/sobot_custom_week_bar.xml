@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:id="@id/ll_week" android:background="#ffffffff" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:minHeight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_sun" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_mon" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_tue" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_wed" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_thu" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_fri" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/sobot_common_gray1" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sobot_sat" android:layout_weight="1.0" />
+</merge>

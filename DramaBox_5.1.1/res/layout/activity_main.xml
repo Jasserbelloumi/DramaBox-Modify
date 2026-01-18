@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cl_root" android:tag="layout/activity_main_0" android:background="@color/color_F6F6F6_0F0F0F" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dz_dp_58" />
+    <com.storymatrix.drama.view.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bnv" android:layout_width="fill_parent" android:layout_height="@dimen/dz_dp_58" />
+    <com.storymatrix.drama.view.CollectionManagerView android:layout_gravity="bottom" android:id="@id/collectionManager" android:layout_width="fill_parent" android:layout_height="@dimen/dz_dp_58" />
+</FrameLayout>

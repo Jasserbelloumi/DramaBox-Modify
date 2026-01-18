@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/shape_recharge_single_column_select" />
+    <item android:state_selected="false" android:drawable="@drawable/shape_recharge_coins_package_nor" />
+    <item android:drawable="@drawable/shape_recharge_coins_package_nor" />
+</selector>

@@ -1,0 +1,89 @@
+.class public final Landroidx/compose/runtime/CompositionLocalContext;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# instance fields
+.field private final compositionLocals:Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap<",
+            "Landroidx/compose/runtime/CompositionLocal<",
+            "Ljava/lang/Object;",
+            ">;",
+            "Landroidx/compose/runtime/State<",
+            "Ljava/lang/Object;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap<",
+            "Landroidx/compose/runtime/CompositionLocal<",
+            "Ljava/lang/Object;",
+            ">;+",
+            "Landroidx/compose/runtime/State<",
+            "+",
+            "Ljava/lang/Object;",
+            ">;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    const-string v0, "compositionLocals"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 9
+    .line 10
+    iput-object p1, p0, Landroidx/compose/runtime/CompositionLocalContext;->compositionLocals:Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap;
+
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getCompositionLocals$runtime_release()Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap<",
+            "Landroidx/compose/runtime/CompositionLocal<",
+            "Ljava/lang/Object;",
+            ">;",
+            "Landroidx/compose/runtime/State<",
+            "Ljava/lang/Object;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Landroidx/compose/runtime/CompositionLocalContext;->compositionLocals:Landroidx/compose/runtime/external/kotlinx/collections/immutable/PersistentMap;
+
+    .line 3
+    return-object v0
+.end method

@@ -1,0 +1,42 @@
+.class public final synthetic Lv6/public;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic O:Lcom/ironsource/kw;
+
+.field public final synthetic l:Lcom/ironsource/iq;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/ironsource/kw;Lcom/ironsource/iq;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lv6/public;->O:Lcom/ironsource/kw;
+
+    iput-object p2, p0, Lv6/public;->l:Lcom/ironsource/iq;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lv6/public;->O:Lcom/ironsource/kw;
+
+    iget-object v1, p0, Lv6/public;->l:Lcom/ironsource/iq;
+
+    invoke-static {v0, v1}, Lcom/ironsource/kw;->dramabox(Lcom/ironsource/kw;Lcom/ironsource/iq;)V
+
+    return-void
+.end method

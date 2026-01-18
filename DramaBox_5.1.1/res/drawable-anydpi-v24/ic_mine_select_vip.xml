@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="30.0dip" android:viewportWidth="30.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_mine_select_vip__0" android:pathData="M15,3.124C21.559,3.124 26.876,8.441 26.876,15C26.876,21.559 21.559,26.877 15,26.877C8.441,26.877 3.124,21.559 3.124,15C3.124,8.441 8.441,3.124 15,3.124ZM15,18.464C11.902,18.464 9.082,19.65 6.967,21.593C8.873,23.913 11.764,25.392 15,25.392C18.236,25.392 21.127,23.913 23.033,21.593C20.919,19.65 18.098,18.464 15,18.464ZM15,8.073C12.814,8.073 11.041,9.845 11.041,12.031C11.041,14.218 12.814,15.99 15,15.99C17.186,15.99 18.959,14.218 18.959,12.031C18.959,9.845 17.186,8.073 15,8.073Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,36 @@
+.class public final synthetic LJqq/dramabox;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static dramabox(Landroidx/compose/ui/graphics/vector/VectorConfig;Landroidx/compose/ui/graphics/vector/VectorProperty;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    .line 2
+    const-string p0, "property"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    return-object p2
+.end method
+
+.method public static synthetic dramaboxapp(Landroidx/compose/ui/graphics/vector/VectorConfig;Landroidx/compose/ui/graphics/vector/VectorProperty;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {p0, p1, p2}, LJqq/dramabox;->dramabox(Landroidx/compose/ui/graphics/vector/VectorConfig;Landroidx/compose/ui/graphics/vector/VectorProperty;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

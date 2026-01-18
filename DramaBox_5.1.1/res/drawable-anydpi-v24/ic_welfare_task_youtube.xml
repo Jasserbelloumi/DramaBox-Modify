@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#fff8024c" android:pathData="M0,20C0,8.954 8.954,0 20,0C31.046,0 40,8.954 40,20C40,31.046 31.046,40 20,40C8.954,40 0,31.046 0,20Z" android:strokeAlpha="0.05" android:fillAlpha="0.05" />
+    <path android:fillColor="@drawable/$ic_welfare_task_youtube__0" android:pathData="M20,12.999C20,12.999 26.255,12.999 27.815,13.416C28.677,13.648 29.355,14.326 29.584,15.186C30.001,16.745 30.001,20 30.001,20C30.001,20.032 29.999,23.263 29.584,24.815C29.352,25.677 28.674,26.354 27.815,26.583C26.255,27 20,27 20,27C19.94,27 13.74,26.998 12.186,26.583C11.324,26.351 10.646,25.673 10.417,24.815C10.003,23.264 10,20.037 10,20C10,20 10,16.745 10.417,15.186C10.649,14.323 11.327,13.645 12.186,13.416C13.74,13.001 19.94,12.999 20,12.999ZM18.003,23L23.198,20L18.003,16.999V23Z" />
+</vector>

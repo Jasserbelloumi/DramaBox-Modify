@@ -1,0 +1,328 @@
+.class public final Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+.super Lcom/google/protobuf/GeneratedMessageLite$Builder;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageLiteOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "O"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageLite$Builder<",
+        "Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;",
+        "Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;",
+        ">;",
+        "Lcom/google/protobuf/MessageLiteOrBuilder;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 2
+    invoke-static {}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->OT()Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;-><init>(Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/moloco/sdk/I;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public I(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$Device;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->I(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$Device;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public IO(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$lO;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->IO(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$lO;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public O(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$AudioInfo;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->O(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$AudioInfo;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public dramabox(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$dramabox;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->dramabox(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$dramabox;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public dramaboxapp(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$dramaboxapp;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->dramaboxapp(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$dramaboxapp;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public io(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$l;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->io(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$l;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public l(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$BatteryInfo;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->l(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$BatteryInfo;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public l1(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$io;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->l1(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$io;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public lO(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$ll;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->lO(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$ll;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public ll(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$l1;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->ll(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$l1;)V
+
+    .line 11
+    return-object p0
+.end method
+
+.method public lo(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$NetworkInfo;)Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$O;
+    .locals 1
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;->lo(Lcom/moloco/sdk/BidToken$ClientBidTokenComponents;Lcom/moloco/sdk/BidToken$ClientBidTokenComponents$NetworkInfo;)V
+
+    .line 11
+    return-object p0
+.end method

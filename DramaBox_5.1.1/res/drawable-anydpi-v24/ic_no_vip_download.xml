@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_no_vip_download__0" android:pathData="M6.979,1.569C7.614,1.215 8.386,1.215 9.021,1.569L13.203,3.9C13.867,4.271 14.279,4.971 14.279,5.732V10.268C14.279,11.029 13.867,11.729 13.203,12.1L9.021,14.431C8.386,14.785 7.614,14.785 6.979,14.431L2.797,12.1C2.133,11.729 1.721,11.029 1.721,10.268V5.732C1.721,4.971 2.133,4.271 2.797,3.9L6.979,1.569Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M12.433,5.326L8.174,11.788C8.129,11.848 8.06,11.884 7.985,11.889H6.986C6.914,11.885 6.85,11.842 6.82,11.778L4.162,5.337C4.136,5.276 4.172,5.225 4.237,5.225H7.282C7.349,5.225 7.378,5.273 7.345,5.33L6.913,5.96C6.879,6.027 6.875,6.105 6.899,6.176L7.798,8.482C7.822,8.542 7.872,8.549 7.908,8.493L9.989,5.327C10.033,5.267 10.102,5.231 10.177,5.226H12.376C12.443,5.225 12.469,5.27 12.433,5.326Z" />
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sobot_msg_top_bottom_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sobot.chat.widget.image.SobotRCImageView android:id="@id/iv_snapshot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="137.0dip" android:layout_marginBottom="12.0dip" android:scaleType="fitCenter" app:sobot_round_corner_top_left="4.0dip" app:sobot_round_corner_top_right="4.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/sobot_color" android:ellipsize="end" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:maxLines="1" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/sobot_common_gray1" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" android:maxLines="2" />
+    <View android:id="@id/view_split" android:background="@color/sobot_line_1dp" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_see_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/sobot_common_gray1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sobot_see_detail" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="6.0dip" android:layout_height="12.0dip" android:src="@drawable/sobot_icon_right_arrow" />
+    </LinearLayout>
+</LinearLayout>

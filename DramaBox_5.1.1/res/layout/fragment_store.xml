@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:tag="layout/fragment_store_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+    <ImageView android:id="@id/iv_bg_2" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginTop="@dimen/dz_dp_45" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.storymatrix.drama.view.PendantView android:layout_gravity="end|bottom|center" android:id="@id/pendant_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dz_dp_108" android:layout_marginEnd="@dimen/dz_dp_12" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/vs_continue_watching_prompt" android:visibility="gone" android:layout="@layout/layout_continue_watching_prompt" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginBottom="@dimen/dz_dp_8" android:layout_marginStart="@dimen/dz_dp_8" android:layout_marginEnd="@dimen/dz_dp_8" />
+    <com.storymatrix.drama.view.StatusView android:id="@id/statusView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dz_dp_44" android:overScrollMode="never" />
+    <com.storymatrix.drama.view.StoreSkeletonView android:id="@id/skeletonView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:paddingLeft="@dimen/dz_dp_16" android:paddingTop="@dimen/dz_dp_8" android:paddingRight="@dimen/dz_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/dz_dp_201" android:paddingHorizontal="@dimen/dz_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.storymatrix.drama.view.store.StoreBannerView android:id="@id/banner_view" android:tag="layout/store_component_banner_0" android:layout_width="fill_parent" android:layout_height="@dimen/dz_dp_193" app:banner_auto_loop="false" app:banner_radius="@dimen/dz_dp_7" />
+    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/ll_banner_indicator" android:tag="layout/store_component_banner_1" android:background="@drawable/shape_banner_indicator_bg" android:layout_width="wrap_content" android:layout_height="@dimen/dz_dp_4" android:layout_marginBottom="@dimen/dz_dp_12" android:layout_marginEnd="@dimen/dz_dp_12" />
+</merge>

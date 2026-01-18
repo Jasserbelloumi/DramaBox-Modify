@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sobot_rl_file_container" android:background="@drawable/sobot_bg_normal" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sobot.chat.widget.SobotSectorProgressView android:id="@id/sobot_progress" android:layout_width="34.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="@dimen/sobot_text_font_14" android:textStyle="bold" android:textColor="@color/sobot_common_gray1" android:ellipsize="middle" android:id="@id/sobot_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/sobot_progress" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/sobot_progress" />
+    <TextView android:textSize="@dimen/sobot_text_font_12" android:textColor="@color/sobot_common_gray2" android:ellipsize="end" android:id="@id/sobot_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@id/sobot_progress" android:layout_below="@id/sobot_file_name" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/sobot_progress" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+.class public final synthetic Ltry/l1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static bridge synthetic dramabox(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    instance-of p0, p0, Landroid/window/SplashScreenView;
+
+    return p0
+.end method

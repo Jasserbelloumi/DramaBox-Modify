@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="49.0dip" android:width="142.0dip" android:viewportWidth="142.0" android:viewportHeight="49.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_ranking_top_bg__0" android:pathData="M102.92,49L64.5,0L141.33,0L102.92,49Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_ranking_top_bg__1" android:pathData="M38.91,49L0.5,0L77.33,0L38.91,49Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_ranking_top_bg__2" android:pathData="M70.75,40.5L39,0L102.5,0L70.75,40.5Z" android:fillType="evenOdd" />
+</vector>

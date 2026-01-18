@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="41.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="41.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#fff8024c" android:pathData="M0,20.5C0,9.454 8.954,0.5 20,0.5C31.046,0.5 40,9.454 40,20.5C40,31.546 31.046,40.5 20,40.5C8.954,40.5 0,31.546 0,20.5Z" android:strokeAlpha="0.05" android:fillAlpha="0.05" />
+    <path android:fillColor="@drawable/$ic_welfare_task_notify__0" android:pathData="M23,28C22.759,29.419 21.507,30.5 20,30.5C18.493,30.5 17.241,29.419 17,28H23ZM20,10.5C20.828,10.5 21.5,11.172 21.5,12V12.189C24.088,12.856 26,15.204 26,18V22.5C26,22.776 26.224,23 26.5,23C27.328,23 28,23.672 28,24.5C28,25.328 27.328,26 26.5,26H13.5C12.672,26 12,25.328 12,24.5C12,23.672 12.672,23 13.5,23C13.776,23 14,22.776 14,22.5V18C14,15.204 15.912,12.856 18.5,12.189V12C18.5,11.172 19.172,10.5 20,10.5Z" />
+</vector>

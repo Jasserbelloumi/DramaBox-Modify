@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/layout" android:background="@drawable/bg_download_manager_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dz_dp_41"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ic_download_all" android:tag="layout/download_going_manage_view_0" android:layout_width="@dimen/dz_dp_12" android:layout_height="@dimen/dz_dp_12" android:src="@drawable/ic_download_all_start" android:tint="@color/color_FF111111_FFFFFF" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tv_download_all" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dz_dp_14" android:textColor="@color/color_FF111111_FFFFFF" android:id="@id/tv_download_all" android:tag="layout/download_going_manage_view_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dz_dp_6" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ic_download_all" app:layout_constraintTop_toTopOf="parent" />
+</merge>

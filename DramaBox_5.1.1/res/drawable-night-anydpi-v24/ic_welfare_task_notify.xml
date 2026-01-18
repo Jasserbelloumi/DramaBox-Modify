@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="80.0" android:viewportHeight="80.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$ic_welfare_task_notify__0" android:pathData="M40,0L40,0A40,40 0,0 1,80 40L80,40A40,40 0,0 1,40 80L40,80A40,40 0,0 1,0 40L0,40A40,40 0,0 1,40 0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_welfare_task_notify__1" android:pathData="M46,55C45.517,57.838 43.015,60 40,60C36.985,60 34.483,57.838 34,55L46,55ZM40,20C41.657,20 43,21.343 43,23L43.001,23.378C48.176,24.711 52,29.409 52,35L52,44C52,44.552 52.448,45 53,45L53,45L53,45C54.657,45 56,46.343 56,48C56,49.657 54.657,51 53,51L27,51C25.343,51 24,49.657 24,48C24,46.343 25.343,45 27,45C27.552,45 28,44.552 28,44L28,35L28,35C28,29.408 31.824,24.71 37,23.378L37,23C37,21.343 38.343,20 40,20Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

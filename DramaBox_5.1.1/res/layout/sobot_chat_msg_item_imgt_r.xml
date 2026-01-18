@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sobot_real_ll_content" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/sobot_msg_top_bottom_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/sobot_reminde_time_Text" style="@style/sobot_center_remind_time" />
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/sobot_msg_margin_edge" android:layout_marginEnd="@dimen/sobot_msg_margin_edge">
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/sobot_msg_nike_name_tv" android:visibility="gone" style="@style/sobot_chatting_right_nickname" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_status" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/sobot_frame_layout" style="@style/sobot_msg_left_empty_bg_style">
+                    <TextView android:id="@id/sobot_msg_read_status" style="@style/sobot_msg_read_status_style" />
+                    <ImageView android:id="@id/sobot_msgStatus" android:visibility="gone" style="@style/sobot_msg_send_status_style" />
+                    <ProgressBar android:id="@id/sobot_msgProgressBar" android:visibility="gone" android:indeterminateDrawable="@drawable/sobot_progressbar_circle_loading" style="@style/sobot_msg_send_loading_style" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sobot_msg_content_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RelativeLayout android:gravity="end" android:id="@id/sobot_relative_img" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:layout_width="@dimen/sobot_msg_picture_width" android:layout_height="@dimen/sobot_msg_picture_heigh">
+                            <com.sobot.chat.widget.image.SobotRCImageView android:id="@id/sobot_iv_picture" android:visibility="gone" android:layout_width="@dimen/sobot_msg_picture_width" android:layout_height="@dimen/sobot_msg_picture_heigh" android:scaleType="centerCrop" app:sobot_round_corner_bottom_left="@dimen/sobot_msg_corner_radius" app:sobot_round_corner_bottom_right="@dimen/sobot_msg_corner_radius" app:sobot_round_corner_top_left="@dimen/sobot_msg_corner_radius" app:sobot_round_corner_top_right="@dimen/sobot_msg_corner_radius" />
+                            <TextView android:textSize="10.0sp" android:gravity="center" android:id="@id/sobot_pic_isgif" android:background="@color/sobot_color" android:layout_width="20.0dip" android:layout_height="15.0dip" android:text="gif" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+                            <RelativeLayout android:id="@id/sobot_pic_progress_rl" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                                <com.sobot.chat.widget.RoundProgressBar android:id="@id/sobot_pic_progress_round" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <LinearLayout android:orientation="vertical" android:id="@id/sobot_answersList" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sobot_iv_picture" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.sobot.chat.widget.image.SobotRCImageView android:id="@id/sobot_msg_face_iv" android:visibility="gone" style="@style/sobot_chatting_right_face_style" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h40v40h-40z" />
+        <path android:fillColor="#fff8024c" android:pathData="M0,20C0,8.954 8.954,0 20,0C31.046,0 40,8.954 40,20C40,31.046 31.046,40 20,40C8.954,40 0,31.046 0,20Z" android:strokeAlpha="0.05" android:fillAlpha="0.05" />
+        <path android:fillColor="@drawable/$ic_welfare_task_share__0" android:pathData="M20.245,12C20.44,12 20.627,12.075 20.767,12.211L28.208,19.399C28.606,19.782 28.617,20.416 28.233,20.813C28.225,20.821 28.217,20.829 28.208,20.837L20.767,28.025C20.469,28.313 19.994,28.305 19.706,28.007C19.571,27.867 19.495,27.681 19.495,27.486L19.495,23.426C14.805,23.451 12.821,25.986 12.004,26.752C11.892,20.673 14.306,17.507 19.245,17.253C19.329,17.249 19.413,17.236 19.496,17.217L19.495,12.75C19.495,12.336 19.831,12 20.245,12Z" />
+    </group>
+</vector>

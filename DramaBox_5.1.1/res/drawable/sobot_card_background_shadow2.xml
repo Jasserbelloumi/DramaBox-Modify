@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0286a3bf" />
+        </shape>
+    </item>
+    <item android:left="0.30000007dip" android:top="0.0dip" android:right="0.30000007dip" android:bottom="0.30000007dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0386a3bf" />
+        </shape>
+    </item>
+    <item android:left="0.5dip" android:top="0.0dip" android:right="0.5dip" android:bottom="0.5dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0486a3bf" />
+        </shape>
+    </item>
+    <item android:left="1.0dip" android:top="0.0dip" android:right="1.0dip" android:bottom="1.0dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0586a3bf" />
+        </shape>
+    </item>
+    <item android:left="1.5dip" android:top="0.0dip" android:right="1.5dip" android:bottom="1.5dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0686a3bf" />
+        </shape>
+    </item>
+    <item android:left="2.0dip" android:top="0.0dip" android:right="2.0dip" android:bottom="2.0dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0786a3bf" />
+        </shape>
+    </item>
+    <item android:left="2.5dip" android:top="0.0dip" android:right="2.5dip" android:bottom="2.5dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="#0886a3bf" />
+        </shape>
+    </item>
+    <item android:left="3.0dip" android:top="0.0dip" android:right="3.0dip" android:bottom="3.0dip">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+            <solid android:color="@color/sobot_white" />
+        </shape>
+    </item>
+</layer-list>

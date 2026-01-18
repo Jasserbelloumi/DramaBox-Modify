@@ -1,0 +1,136 @@
+.class Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bumptech/glide/request/RequestListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader;->displayImage(Landroid/content/Context;Landroid/widget/ImageView;Landroid/net/Uri;IIIILcom/sobot/chat/imageloader/SobotImageLoader$SobotDisplayImageListener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/bumptech/glide/request/RequestListener<",
+        "Landroid/graphics/Bitmap;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader;
+
+.field final synthetic val$imageView:Landroid/widget/ImageView;
+
+.field final synthetic val$imgUri:Landroid/net/Uri;
+
+.field final synthetic val$listener:Lcom/sobot/chat/imageloader/SobotImageLoader$SobotDisplayImageListener;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader;Lcom/sobot/chat/imageloader/SobotImageLoader$SobotDisplayImageListener;Landroid/widget/ImageView;Landroid/net/Uri;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->this$0:Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader;
+
+    .line 3
+    .line 4
+    iput-object p2, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->val$listener:Lcom/sobot/chat/imageloader/SobotImageLoader$SobotDisplayImageListener;
+
+    .line 5
+    .line 6
+    iput-object p3, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->val$imageView:Landroid/widget/ImageView;
+
+    .line 7
+    .line 8
+    iput-object p4, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->val$imgUri:Landroid/net/Uri;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public onLoadFailed(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;Z)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/bumptech/glide/load/engine/GlideException;",
+            "Ljava/lang/Object;",
+            "Lcom/bumptech/glide/request/target/Target<",
+            "Landroid/graphics/Bitmap;",
+            ">;Z)Z"
+        }
+    .end annotation
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public onResourceReady(Landroid/graphics/Bitmap;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;Lcom/bumptech/glide/load/DataSource;Z)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/graphics/Bitmap;",
+            "Ljava/lang/Object;",
+            "Lcom/bumptech/glide/request/target/Target<",
+            "Landroid/graphics/Bitmap;",
+            ">;",
+            "Lcom/bumptech/glide/load/DataSource;",
+            "Z)Z"
+        }
+    .end annotation
+
+    .line 2
+    iget-object p1, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->val$listener:Lcom/sobot/chat/imageloader/SobotImageLoader$SobotDisplayImageListener;
+
+    if-eqz p1, :cond_0
+
+    .line 3
+    iget-object p2, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->val$imageView:Landroid/widget/ImageView;
+
+    iget-object p3, p0, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->val$imgUri:Landroid/net/Uri;
+
+    invoke-virtual {p3}, Landroid/net/Uri;->getPath()Ljava/lang/String;
+
+    move-result-object p3
+
+    invoke-interface {p1, p2, p3}, Lcom/sobot/chat/imageloader/SobotImageLoader$SobotDisplayImageListener;->onSuccess(Landroid/view/View;Ljava/lang/String;)V
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public bridge synthetic onResourceReady(Ljava/lang/Object;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;Lcom/bumptech/glide/load/DataSource;Z)Z
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroid/graphics/Bitmap;
+
+    invoke-virtual/range {p0 .. p5}, Lcom/sobot/chat/imageloader/SobotGlideV4ImageLoader$2;->onResourceReady(Landroid/graphics/Bitmap;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;Lcom/bumptech/glide/load/DataSource;Z)Z
+
+    move-result p1
+
+    return p1
+.end method

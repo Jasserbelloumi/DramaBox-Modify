@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/layout" android:layout_width="@dimen/dz_dp_75" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ic_share_icon" android:tag="layout/item_share_view_0" android:layout_width="53.0dip" android:layout_height="53.0dip" android:src="@drawable/ic_share_fb" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dz_dp_12" android:textColor="@color/color_FF111111_FFFFFF" android:gravity="center" android:id="@id/tv_share_name" android:tag="layout/item_share_view_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dz_dp_8" android:maxWidth="@dimen/dz_dp_75" android:text="@string/str_share_method_Facebook" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ic_share_icon" />
+</merge>

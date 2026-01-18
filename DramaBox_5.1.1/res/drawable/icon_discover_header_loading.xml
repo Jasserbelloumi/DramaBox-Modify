@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/dz_dp_36" android:width="@dimen/dz_dp_36">
+        <shape android:shape="oval">
+            <solid android:color="@color/text_primary" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/dz_dp_24" android:width="@dimen/dz_dp_24">
+        <vector android:height="24.0dip" android:width="24.0dip" android:alpha="1.0" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="#ff000000" android:pathData="M3.986,9.153C5.559,4.728 10.422,2.414 14.848,3.986C15.76,4.311 16.583,4.776 17.301,5.349L19.011,3.64C19.137,3.514 19.351,3.603 19.352,3.781V8.41C19.352,8.52 19.263,8.61 19.152,8.61H14.524C14.345,8.61 14.256,8.394 14.382,8.268L16.233,6.417C15.674,5.994 15.042,5.647 14.346,5.399C10.701,4.104 6.695,6.01 5.399,9.655C4.105,13.3 6.011,17.306 9.656,18.601C13.301,19.895 17.306,17.99 18.601,14.345C18.867,13.594 18.999,12.828 19.007,12.075C19.012,11.661 19.35,11.33 19.764,11.334C20.178,11.338 20.51,11.679 20.506,12.093C20.496,13.008 20.337,13.938 20.014,14.847C18.441,19.272 13.58,21.585 9.154,20.014C4.729,18.441 2.414,13.579 3.986,9.153Z" />
+        </vector>
+    </item>
+</layer-list>

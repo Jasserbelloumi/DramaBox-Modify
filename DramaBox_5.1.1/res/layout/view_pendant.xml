@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="@dimen/dz_dp_60" android:layout_height="@dimen/dz_dp_76"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/close" android:tag="layout/view_pendant_0" android:layout_width="@dimen/dz_dp_16" android:layout_height="@dimen/dz_dp_16" android:src="@drawable/pendant_close" />
+    <ImageView android:id="@id/pendant_image" android:tag="layout/view_pendant_1" android:layout_width="@dimen/dz_dp_60" android:layout_height="@dimen/dz_dp_60" />
+</merge>

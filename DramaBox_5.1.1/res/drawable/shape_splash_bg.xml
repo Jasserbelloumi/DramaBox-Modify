@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/color_F6F6F6_0F0F0F" />
+    <item android:top="@dimen/dz_dp_300">
+        <bitmap android:gravity="top" android:src="@drawable/iv_login_logo" />
+    </item>
+</layer-list>

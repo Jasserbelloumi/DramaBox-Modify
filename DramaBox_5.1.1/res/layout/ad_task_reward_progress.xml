@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dz_dp_12" android:textColor="@color/color_888888_66FFFFFF" android:gravity="center" android:id="@id/tvCoins" android:tag="layout/ad_task_reward_progress_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" />
+    <ImageView android:id="@id/ivCoins" android:tag="layout/ad_task_reward_progress_1" android:layout_width="@dimen/dz_dp_20" android:layout_height="@dimen/dz_dp_20" android:layout_marginTop="@dimen/dz_dp_4" android:src="@drawable/ad_task_reward_undone" />
+    <TextView android:textSize="@dimen/dz_dp_11" android:textColor="@color/color_888888_66FFFFFF" android:gravity="center" android:id="@id/tvDate" android:tag="layout/ad_task_reward_progress_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.5dip" android:includeFontPadding="true" />
+</merge>

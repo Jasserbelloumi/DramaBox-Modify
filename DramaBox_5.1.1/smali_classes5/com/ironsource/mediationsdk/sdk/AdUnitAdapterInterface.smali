@@ -1,0 +1,12 @@
+.class public interface abstract Lcom/ironsource/mediationsdk/sdk/AdUnitAdapterInterface;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ironsource/mediationsdk/sdk/ReleaseMemoryAdapterInterface;
+.implements Lcom/ironsource/mediationsdk/INetworkInitCallbackListener;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation

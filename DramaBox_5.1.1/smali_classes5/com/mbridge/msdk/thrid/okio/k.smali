@@ -1,0 +1,538 @@
+.class public final Lcom/mbridge/msdk/thrid/okio/k;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/mbridge/msdk/thrid/okio/s;
+
+
+# instance fields
+.field private final a:Lcom/mbridge/msdk/thrid/okio/e;
+
+.field private final b:Ljava/util/zip/Inflater;
+
+.field private c:I
+
+.field private d:Z
+
+
+# direct methods
+.method public constructor <init>(Lcom/mbridge/msdk/thrid/okio/e;Ljava/util/zip/Inflater;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    if-eqz p1, :cond_1
+
+    .line 6
+    .line 7
+    if-eqz p2, :cond_0
+
+    .line 8
+    .line 9
+    iput-object p1, p0, Lcom/mbridge/msdk/thrid/okio/k;->a:Lcom/mbridge/msdk/thrid/okio/e;
+
+    .line 10
+    .line 11
+    iput-object p2, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    .line 12
+    return-void
+
+    .line 13
+    .line 14
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    .line 15
+    .line 16
+    const-string p2, "inflater == null"
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 20
+    throw p1
+
+    .line 21
+    .line 22
+    :cond_1
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    .line 23
+    .line 24
+    const-string p2, "source == null"
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 28
+    throw p1
+.end method
+
+.method private h()V
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    iget v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->c:I
+
+    .line 3
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    return-void
+
+    .line 6
+    .line 7
+    :cond_0
+    iget-object v1, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-virtual {v1}, Ljava/util/zip/Inflater;->getRemaining()I
+
+    .line 11
+    move-result v1
+
+    .line 12
+    sub-int/2addr v0, v1
+
+    .line 13
+    .line 14
+    iget v1, p0, Lcom/mbridge/msdk/thrid/okio/k;->c:I
+
+    .line 15
+    sub-int/2addr v1, v0
+
+    .line 16
+    .line 17
+    iput v1, p0, Lcom/mbridge/msdk/thrid/okio/k;->c:I
+
+    .line 18
+    .line 19
+    iget-object v1, p0, Lcom/mbridge/msdk/thrid/okio/k;->a:Lcom/mbridge/msdk/thrid/okio/e;
+
+    .line 20
+    int-to-long v2, v0
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-interface {v1, v2, v3}, Lcom/mbridge/msdk/thrid/okio/e;->skip(J)V
+
+    .line 24
+    return-void
+.end method
+
+
+# virtual methods
+.method public b(Lcom/mbridge/msdk/thrid/okio/c;J)J
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const-wide/16 v0, 0x0
+
+    cmp-long v2, p2, v0
+
+    if-ltz v2, :cond_7
+
+    .line 1
+    iget-boolean v3, p0, Lcom/mbridge/msdk/thrid/okio/k;->d:Z
+
+    if-nez v3, :cond_6
+
+    if-nez v2, :cond_0
+
+    return-wide v0
+
+    .line 2
+    :cond_0
+    :goto_0
+    invoke-virtual {p0}, Lcom/mbridge/msdk/thrid/okio/k;->d()Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    .line 3
+    :try_start_0
+    invoke-virtual {p1, v1}, Lcom/mbridge/msdk/thrid/okio/c;->b(I)Lcom/mbridge/msdk/thrid/okio/o;
+
+    move-result-object v1
+
+    .line 4
+    iget v2, v1, Lcom/mbridge/msdk/thrid/okio/o;->c:I
+
+    rsub-int v2, v2, 0x2000
+
+    int-to-long v2, v2
+
+    invoke-static {p2, p3, v2, v3}, Ljava/lang/Math;->min(JJ)J
+
+    move-result-wide v2
+
+    long-to-int v2, v2
+
+    .line 5
+    iget-object v3, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    iget-object v4, v1, Lcom/mbridge/msdk/thrid/okio/o;->a:[B
+
+    iget v5, v1, Lcom/mbridge/msdk/thrid/okio/o;->c:I
+
+    invoke-virtual {v3, v4, v5, v2}, Ljava/util/zip/Inflater;->inflate([BII)I
+
+    move-result v2
+
+    if-lez v2, :cond_1
+
+    .line 6
+    iget p2, v1, Lcom/mbridge/msdk/thrid/okio/o;->c:I
+
+    add-int/2addr p2, v2
+
+    iput p2, v1, Lcom/mbridge/msdk/thrid/okio/o;->c:I
+
+    .line 7
+    iget-wide p2, p1, Lcom/mbridge/msdk/thrid/okio/c;->b:J
+
+    int-to-long v0, v2
+
+    add-long/2addr p2, v0
+
+    iput-wide p2, p1, Lcom/mbridge/msdk/thrid/okio/c;->b:J
+
+    return-wide v0
+
+    :catch_0
+    move-exception p1
+
+    goto :goto_2
+
+    .line 8
+    :cond_1
+    iget-object v2, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    invoke-virtual {v2}, Ljava/util/zip/Inflater;->finished()Z
+
+    move-result v2
+
+    if-nez v2, :cond_4
+
+    iget-object v2, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    invoke-virtual {v2}, Ljava/util/zip/Inflater;->needsDictionary()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    goto :goto_1
+
+    :cond_2
+    if-nez v0, :cond_3
+
+    goto :goto_0
+
+    .line 9
+    :cond_3
+    new-instance p1, Ljava/io/EOFException;
+
+    const-string p2, "source exhausted prematurely"
+
+    invoke-direct {p1, p2}, Ljava/io/EOFException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 10
+    :cond_4
+    :goto_1
+    invoke-direct {p0}, Lcom/mbridge/msdk/thrid/okio/k;->h()V
+
+    .line 11
+    iget p2, v1, Lcom/mbridge/msdk/thrid/okio/o;->b:I
+
+    iget p3, v1, Lcom/mbridge/msdk/thrid/okio/o;->c:I
+
+    if-ne p2, p3, :cond_5
+
+    .line 12
+    invoke-virtual {v1}, Lcom/mbridge/msdk/thrid/okio/o;->b()Lcom/mbridge/msdk/thrid/okio/o;
+
+    move-result-object p2
+
+    iput-object p2, p1, Lcom/mbridge/msdk/thrid/okio/c;->a:Lcom/mbridge/msdk/thrid/okio/o;
+
+    .line 13
+    invoke-static {v1}, Lcom/mbridge/msdk/thrid/okio/p;->a(Lcom/mbridge/msdk/thrid/okio/o;)V
+    :try_end_0
+    .catch Ljava/util/zip/DataFormatException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :cond_5
+    const-wide/16 p1, -0x1
+
+    return-wide p1
+
+    .line 14
+    :goto_2
+    new-instance p2, Ljava/io/IOException;
+
+    invoke-direct {p2, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
+
+    throw p2
+
+    .line 15
+    :cond_6
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string p2, "closed"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 16
+    :cond_7
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "byteCount < 0: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p2, p3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public b()Lcom/mbridge/msdk/thrid/okio/t;
+    .locals 1
+
+    .line 17
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->a:Lcom/mbridge/msdk/thrid/okio/e;
+
+    invoke-interface {v0}, Lcom/mbridge/msdk/thrid/okio/s;->b()Lcom/mbridge/msdk/thrid/okio/t;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public close()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    iget-boolean v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->d:Z
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    return-void
+
+    .line 6
+    .line 7
+    :cond_0
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-virtual {v0}, Ljava/util/zip/Inflater;->end()V
+
+    .line 11
+    const/4 v0, 0x1
+
+    .line 12
+    .line 13
+    iput-boolean v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->d:Z
+
+    .line 14
+    .line 15
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->a:Lcom/mbridge/msdk/thrid/okio/e;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-interface {v0}, Lcom/mbridge/msdk/thrid/okio/s;->close()V
+
+    .line 19
+    return-void
+.end method
+
+.method public final d()Z
+    .locals 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    .line 2
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Ljava/util/zip/Inflater;->needsInput()Z
+
+    .line 6
+    move-result v0
+
+    .line 7
+    const/4 v1, 0x0
+
+    .line 8
+    .line 9
+    if-nez v0, :cond_0
+
+    .line 10
+    return v1
+
+    .line 11
+    .line 12
+    .line 13
+    :cond_0
+    invoke-direct {p0}, Lcom/mbridge/msdk/thrid/okio/k;->h()V
+
+    .line 14
+    .line 15
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v0}, Ljava/util/zip/Inflater;->getRemaining()I
+
+    .line 19
+    move-result v0
+
+    .line 20
+    .line 21
+    if-nez v0, :cond_2
+
+    .line 22
+    .line 23
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->a:Lcom/mbridge/msdk/thrid/okio/e;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-interface {v0}, Lcom/mbridge/msdk/thrid/okio/e;->f()Z
+
+    .line 27
+    move-result v0
+
+    .line 28
+    .line 29
+    if-eqz v0, :cond_1
+
+    .line 30
+    const/4 v0, 0x1
+
+    .line 31
+    return v0
+
+    .line 32
+    .line 33
+    :cond_1
+    iget-object v0, p0, Lcom/mbridge/msdk/thrid/okio/k;->a:Lcom/mbridge/msdk/thrid/okio/e;
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-interface {v0}, Lcom/mbridge/msdk/thrid/okio/e;->a()Lcom/mbridge/msdk/thrid/okio/c;
+
+    .line 37
+    move-result-object v0
+
+    .line 38
+    .line 39
+    iget-object v0, v0, Lcom/mbridge/msdk/thrid/okio/c;->a:Lcom/mbridge/msdk/thrid/okio/o;
+
+    .line 40
+    .line 41
+    iget v2, v0, Lcom/mbridge/msdk/thrid/okio/o;->c:I
+
+    .line 42
+    .line 43
+    iget v3, v0, Lcom/mbridge/msdk/thrid/okio/o;->b:I
+
+    .line 44
+    sub-int/2addr v2, v3
+
+    .line 45
+    .line 46
+    iput v2, p0, Lcom/mbridge/msdk/thrid/okio/k;->c:I
+
+    .line 47
+    .line 48
+    iget-object v4, p0, Lcom/mbridge/msdk/thrid/okio/k;->b:Ljava/util/zip/Inflater;
+
+    .line 49
+    .line 50
+    iget-object v0, v0, Lcom/mbridge/msdk/thrid/okio/o;->a:[B
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-virtual {v4, v0, v3, v2}, Ljava/util/zip/Inflater;->setInput([BII)V
+
+    .line 54
+    return v1
+
+    .line 55
+    .line 56
+    :cond_2
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    .line 57
+    .line 58
+    const-string v1, "?"
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 62
+    throw v0
+.end method

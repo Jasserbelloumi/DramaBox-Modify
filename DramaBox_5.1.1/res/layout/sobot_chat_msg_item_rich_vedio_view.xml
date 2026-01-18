@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sobot_video_first_image" android:background="@color/sobot_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/sobot_rich_msg_video_height_dp" android:src="@drawable/sobot_rich_item_vedoi_default" android:scaleType="centerCrop" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sobot_ic_play" android:layout_centerInParent="true" />
+</RelativeLayout>

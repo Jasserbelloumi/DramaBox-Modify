@@ -1,0 +1,80 @@
+.class Lcom/sobot/chat/conversation/SobotChatFragment$37$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/sobot/network/http/callback/StringResultCallBack;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sobot/chat/conversation/SobotChatFragment$37;->onSuccess(Lcom/sobot/chat/api/model/CommonModelBase;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/sobot/network/http/callback/StringResultCallBack<",
+        "Lcom/sobot/chat/api/model/BaseCode;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Lcom/sobot/chat/conversation/SobotChatFragment$37;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sobot/chat/conversation/SobotChatFragment$37;)V
+    .locals 0
+
+    .line 1
+    .line 2
+    iput-object p1, p0, Lcom/sobot/chat/conversation/SobotChatFragment$37$1;->this$1:Lcom/sobot/chat/conversation/SobotChatFragment$37;
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public onFailure(Ljava/lang/Exception;Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onSuccess(Lcom/sobot/chat/api/model/BaseCode;)V
+    .locals 0
+
+    .line 2
+    iget-object p1, p0, Lcom/sobot/chat/conversation/SobotChatFragment$37$1;->this$1:Lcom/sobot/chat/conversation/SobotChatFragment$37;
+
+    iget-object p1, p1, Lcom/sobot/chat/conversation/SobotChatFragment$37;->this$0:Lcom/sobot/chat/conversation/SobotChatFragment;
+
+    invoke-static {p1}, Lcom/sobot/chat/conversation/SobotChatFragment;->access$8300(Lcom/sobot/chat/conversation/SobotChatFragment;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic onSuccess(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/sobot/chat/api/model/BaseCode;
+
+    invoke-virtual {p0, p1}, Lcom/sobot/chat/conversation/SobotChatFragment$37$1;->onSuccess(Lcom/sobot/chat/api/model/BaseCode;)V
+
+    return-void
+.end method

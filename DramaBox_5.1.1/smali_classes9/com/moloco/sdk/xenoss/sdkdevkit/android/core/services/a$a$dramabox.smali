@@ -1,0 +1,47 @@
+.class public final Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a$dramabox;
+.super Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "dramabox"
+.end annotation
+
+
+# static fields
+.field public static final dramabox:Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a$dramabox;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a$dramabox;
+
+    invoke-direct {v0}, Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a$dramabox;-><init>()V
+
+    sput-object v0, Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a$dramabox;->dramabox:Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a$dramabox;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0, v0}, Lcom/moloco/sdk/xenoss/sdkdevkit/android/core/services/a$a;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 5
+    return-void
+.end method

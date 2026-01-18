@@ -1,0 +1,98 @@
+.class public final Landroidx/compose/foundation/text/selection/SelectionManager_androidKt;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# direct methods
+.method public static final isCopyKeyEvent-ZmokQxo(Landroid/view/KeyEvent;)Z
+    .locals 1
+
+    const-string v0, "keyEvent"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public static final selectionMagnifier(Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/text/selection/SelectionManager;)Landroidx/compose/ui/Modifier;
+    .locals 2
+
+    .line 1
+    .line 2
+    const-string v0, "<this>"
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    const-string v0, "manager"
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 11
+    .line 12
+    sget-object v0, Landroidx/compose/foundation/MagnifierStyle;->Companion:Landroidx/compose/foundation/MagnifierStyle$Companion;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Landroidx/compose/foundation/MagnifierStyle$Companion;->getTextDefault()Landroidx/compose/foundation/MagnifierStyle;
+
+    .line 16
+    move-result-object v0
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-virtual {v0}, Landroidx/compose/foundation/MagnifierStyle;->isSupported()Z
+
+    .line 20
+    move-result v0
+
+    .line 21
+    .line 22
+    if-nez v0, :cond_0
+
+    .line 23
+    return-object p0
+
+    .line 24
+    .line 25
+    :cond_0
+    new-instance v0, Landroidx/compose/foundation/text/selection/SelectionManager_androidKt$selectionMagnifier$1;
+
+    .line 26
+    .line 27
+    .line 28
+    invoke-direct {v0, p1}, Landroidx/compose/foundation/text/selection/SelectionManager_androidKt$selectionMagnifier$1;-><init>(Landroidx/compose/foundation/text/selection/SelectionManager;)V
+
+    .line 29
+    const/4 p1, 0x1
+
+    .line 30
+    const/4 v1, 0x0
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-static {p0, v1, v0, p1, v1}, Landroidx/compose/ui/ComposedModifierKt;->composed$default(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function1;Lyf/ppo;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+
+    .line 34
+    move-result-object p0
+
+    .line 35
+    return-object p0
+.end method

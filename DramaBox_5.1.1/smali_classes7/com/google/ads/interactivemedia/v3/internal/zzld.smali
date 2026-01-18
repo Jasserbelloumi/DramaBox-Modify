@@ -1,0 +1,227 @@
+.class final Lcom/google/ads/interactivemedia/v3/internal/zzld;
+.super Lcom/google/ads/interactivemedia/v3/internal/zzlh;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;)V
+    .locals 6
+
+    .line 1
+    const/4 v1, 0x1
+
+    .line 2
+    const/4 v5, 0x0
+
+    .line 3
+    move-object v0, p0
+
+    .line 4
+    move-object v2, p2
+
+    .line 5
+    move-object v3, p3
+
+    .line 6
+    move-object v4, p4
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-direct/range {v0 .. v5}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;-><init>(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Lcom/google/ads/interactivemedia/v3/internal/zzlg;)V
+
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic O(Landroid/content/SharedPreferences;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->lo()Ljava/lang/String;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->ll()Ljava/lang/Object;
+
+    .line 8
+    move-result-object v1
+
+    .line 9
+    .line 10
+    check-cast v1, Ljava/lang/Long;
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+
+    .line 14
+    move-result-wide v1
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-interface {p1, v0, v1, v2}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
+
+    .line 18
+    move-result-wide v0
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 22
+    move-result-object p1
+
+    .line 23
+    return-object p1
+.end method
+
+.method public final bridge synthetic dramabox(Lorg/json/JSONObject;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->lo()Ljava/lang/String;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->ll()Ljava/lang/Object;
+
+    .line 8
+    move-result-object v1
+
+    .line 9
+    .line 10
+    check-cast v1, Ljava/lang/Long;
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+
+    .line 14
+    move-result-wide v1
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
+
+    .line 18
+    move-result-wide v0
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 22
+    move-result-object p1
+
+    .line 23
+    return-object p1
+.end method
+
+.method public final bridge synthetic dramaboxapp(Landroid/os/Bundle;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->lo()Ljava/lang/String;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    .line 6
+    const-string v1, "com.google.android.gms.ads.flag."
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 10
+    move-result-object v0
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
+
+    .line 14
+    move-result v0
+
+    .line 15
+    .line 16
+    if-eqz v0, :cond_0
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->lo()Ljava/lang/String;
+
+    .line 20
+    move-result-object v0
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 24
+    move-result-object v0
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p1, v0}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
+
+    .line 28
+    move-result-wide v0
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 32
+    move-result-object p1
+
+    .line 33
+    goto :goto_0
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_0
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzlh;->ll()Ljava/lang/Object;
+
+    .line 37
+    move-result-object p1
+
+    .line 38
+    .line 39
+    check-cast p1, Ljava/lang/Long;
+
+    .line 40
+    :goto_0
+    return-object p1
+.end method

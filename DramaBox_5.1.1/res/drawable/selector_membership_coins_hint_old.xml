@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/ic_membership_coins_checked_padding_old" />
+    <item android:state_checked="false" android:drawable="@drawable/ic_membership_coins_unchecked_padding" />
+    <item android:drawable="@drawable/ic_membership_coins_unchecked_padding" />
+</selector>

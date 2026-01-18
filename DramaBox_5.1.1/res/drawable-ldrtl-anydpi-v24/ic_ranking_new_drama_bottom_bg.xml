@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dip" android:width="108.0dip" android:alpha="1.0" android:viewportWidth="216.0" android:viewportHeight="216.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h216v216h-216z" />
+        <path android:fillColor="@drawable/$ic_ranking_new_drama_bottom_bg__0" android:pathData="M77.5,32C137.98,32 187,81.02 187,141.5C187,201.98 137.98,251 77.5,251C17.02,251 -32,201.98 -32,141.5C-32,81.02 17.02,32 77.5,32ZM61.65,100.37C53.28,100.37 46.5,107.16 46.5,115.53L46.5,165.47C46.5,168.42 47.36,171.31 48.97,173.77C53.56,180.78 62.95,182.74 69.95,178.16L108.12,153.18C109.87,152.04 111.36,150.54 112.5,148.8C117.09,141.79 115.12,132.4 108.12,127.82L69.95,102.84C67.48,101.23 64.6,100.37 61.65,100.37Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.85" android:fillType="nonZero" />
+    </group>
+</vector>

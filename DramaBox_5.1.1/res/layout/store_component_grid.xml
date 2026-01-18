@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_title" android:tag="layout/store_component_grid_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dz_dp_16" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="@dimen/dz_dp_16" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:tag="layout/store_component_grid_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dz_dp_10" android:paddingEnd="@dimen/dz_dp_10" />
+</merge>

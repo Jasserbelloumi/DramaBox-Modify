@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center_vertical" android:id="@android:id/background" android:height="@dimen/dz_dp_2">
+        <shape>
+            <corners android:radius="@dimen/dz_dp_1" />
+            <solid android:color="@color/color_20_ffffff" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:id="@android:id/progress" android:height="@dimen/dz_dp_2">
+        <clip>
+            <scale android:drawable="@drawable/shape_progress_bg_normal" android:scaleWidth="100%" />
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="30.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_store_select__0" android:pathData="M10.003,18.911L26.574,7.384C28.633,5.951 31.367,5.951 33.426,7.384L49.997,18.911C51.878,20.22 53,22.366 53,24.658L53,47C53,50.314 50.314,53 47,53L40.75,53C38.541,53 36.75,51.209 36.75,49L36.75,40C36.75,37.791 34.959,36 32.75,36L27.25,36C25.041,36 23.25,37.791 23.25,40L23.25,49C23.25,51.209 21.459,53 19.25,53L13,53C9.686,53 7,50.314 7,47L7,24.658C7,22.366 8.122,20.22 10.003,18.911Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>
