@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="41.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="41.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="#fff8024c" android:pathData="M0,20.5C0,9.454 8.954,0.5 20,0.5C31.046,0.5 40,9.454 40,20.5C40,31.546 31.046,40.5 20,40.5C8.954,40.5 0,31.546 0,20.5Z" android:strokeAlpha="0.05" android:fillAlpha="0.05" />
-    <path android:fillColor="@drawable/$ic_welfare_task_watch_video__0" android:pathData="M20,11.5C24.971,11.5 29,15.529 29,20.5C29,25.471 24.971,29.5 20,29.5C15.029,29.5 11,25.471 11,20.5C11,15.529 15.029,11.5 20,11.5ZM19.527,15.29C19.027,15.29 18.618,15.676 18.582,16.166L18.579,16.237V20.974C18.579,21.473 18.966,21.882 19.456,21.919L19.538,21.921L24.263,21.921C24.787,21.921 25.211,21.497 25.211,20.974C25.211,20.474 24.824,20.065 24.334,20.029L24.263,20.026L20.474,20.026V16.237C20.474,15.714 20.05,15.29 19.527,15.29Z" android:fillType="evenOdd" />
-</vector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_reward_coins_toast_bg" android:paddingLeft="@dimen/dz_dp_12" android:paddingTop="@dimen/dz_dp_16" android:paddingRight="@dimen/dz_dp_12" android:paddingBottom="@dimen/dz_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dz_dp_12" android:paddingVertical="@dimen/dz_dp_16"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/dz_dp_50" android:layout_height="@dimen/dz_dp_33" android:src="@drawable/toast_reward_coins" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dz_dp_14" android:textColor="@color/white" android:id="@id/tvRewards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dz_dp_8" />
-</LinearLayout>

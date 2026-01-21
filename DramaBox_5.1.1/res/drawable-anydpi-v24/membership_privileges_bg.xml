@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="272.0dip" android:width="686.0dip" android:viewportWidth="686.0" android:viewportHeight="272.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$membership_privileges_bg__0" android:pathData="M25,1L661,1A24,24 0,0 1,685 25L685,247A24,24 0,0 1,661 271L25,271A24,24 0,0 1,1 247L1,25A24,24 0,0 1,25 1z" android:strokeColor="#fffadf93" android:strokeWidth="2.0" android:strokeAlpha="0.06" android:fillType="evenOdd" />
-</vector>

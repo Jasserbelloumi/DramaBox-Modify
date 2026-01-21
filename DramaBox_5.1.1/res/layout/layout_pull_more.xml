@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.storymatrix.drama.view.GdRecyclerView android:id="@id/recycler_view_l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
-</merge>

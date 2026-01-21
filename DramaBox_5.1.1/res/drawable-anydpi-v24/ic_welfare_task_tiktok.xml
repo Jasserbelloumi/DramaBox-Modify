@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="#fff8024c" android:pathData="M0,20C0,8.954 8.954,0 20,0C31.046,0 40,8.954 40,20C40,31.046 31.046,40 20,40C8.954,40 0,31.046 0,20Z" android:strokeAlpha="0.05" android:fillAlpha="0.05" />
-    <path android:fillColor="@drawable/$ic_welfare_task_tiktok__0" android:pathData="M24.716,14.026C24.11,13.429 23.706,12.629 23.555,11.75C23.535,11.634 23.52,11.514 23.509,11.398V11H20.446V23.305C20.442,24.738 19.29,25.9 17.872,25.9C17.454,25.9 17.062,25.799 16.713,25.621C15.844,25.179 15.296,24.278 15.297,23.294C15.297,21.856 16.449,20.688 17.872,20.688C18.145,20.688 18.406,20.73 18.653,20.809V17.659C18.398,17.623 18.138,17.605 17.881,17.605C14.769,17.612 12.25,20.162 12.25,23.305C12.25,25.277 13.24,27.014 14.745,28.036C15.671,28.667 16.762,29.002 17.878,29C20.988,29 23.507,26.45 23.507,23.305V17.017C24.744,17.913 26.228,18.393 27.75,18.391V15.311C27.282,15.311 26.818,15.235 26.378,15.084C26.07,14.979 25.486,14.79 24.714,14.026H24.716Z" android:fillType="evenOdd" />
-</vector>

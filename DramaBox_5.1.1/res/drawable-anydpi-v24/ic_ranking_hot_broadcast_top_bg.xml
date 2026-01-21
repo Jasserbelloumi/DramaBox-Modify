@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="200.0dip" android:width="200.0dip" android:alpha="1.0" android:viewportWidth="400.0" android:viewportHeight="400.0" xmlns:aapt="http://schemas.android.com/aapt"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group>
-        <clip-path android:pathData="M0,0h400v400h-400z" />
-        <path android:fillColor="@drawable/$ic_ranking_hot_broadcast_top_bg__0" android:pathData="M397.67,181.1C397.67,165.86 389.3,132.19 371.1,98.16C370.78,109.54 361.47,137.11 354.63,144.45C350.04,131.61 348.85,45.85 234.75,17C241.71,102.3 156,101.05 156,193.07C156.01,240.5 184.21,283.48 227.96,302.73C218.28,246.26 274.53,239.04 265.44,180.91C324.7,216.07 338.65,257.17 322.63,304C369.94,284.36 401.47,235.25 397.69,181.1L397.67,181.1Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.8" android:fillType="nonZero" />
-    </group>
-</vector>

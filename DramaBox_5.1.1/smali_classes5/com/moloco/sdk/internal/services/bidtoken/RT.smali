@@ -1,8 +1,0 @@
-.class public interface abstract Lcom/moloco/sdk/internal/services/bidtoken/RT;
-.super Ljava/lang/Object;
-.source "SourceFile"
-
-
-# virtual methods
-.method public abstract getPrivacy()Lcom/moloco/sdk/publisher/privacy/MolocoPrivacy$PrivacySettings;
-.end method

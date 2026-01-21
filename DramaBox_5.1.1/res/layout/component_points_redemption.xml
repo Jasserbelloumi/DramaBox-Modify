@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.storymatrix.drama.view.DramaTextView android:textSize="@dimen/dz_dp_16" android:textColor="@color/color_FF111111_FFFFFF" android:id="@id/tv_title" android:tag="layout/component_points_redemption_0" android:paddingTop="@dimen/dz_dp_8" android:paddingBottom="@dimen/dz_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str_mymem_redemption_title" android:includeFontPadding="false" android:textAlignment="viewStart" android:paddingStart="@dimen/dz_dp_16" android:paddingVertical="@dimen/dz_dp_8" app:fontWeightValue="medium" />
-    <com.storymatrix.drama.view.membership.PointsRedemptionRecyclerView android:id="@id/recyclerView" android:tag="layout/component_points_redemption_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</merge>

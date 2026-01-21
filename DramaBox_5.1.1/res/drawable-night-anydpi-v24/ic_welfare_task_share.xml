@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="40.0dip" android:width="40.0dip" android:autoMirrored="false" android:viewportWidth="80.0" android:viewportHeight="80.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$ic_welfare_task_share__0" android:pathData="M40,0L40,0A40,40 0,0 1,80 40L80,40A40,40 0,0 1,40 80L40,80A40,40 0,0 1,0 40L0,40A40,40 0,0 1,40 0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
-    <path android:fillColor="@drawable/$ic_welfare_task_share__1" android:pathData="M39.977,23.764C40.366,23.764 40.74,23.915 41.019,24.185L55.903,38.561C56.698,39.329 56.72,40.595 55.952,41.389C55.936,41.406 55.92,41.422 55.903,41.439L41.019,55.815C40.423,56.39 39.474,56.374 38.898,55.778C38.628,55.498 38.477,55.125 38.477,54.736L38.476,46.616C29.097,46.666 25.129,51.735 23.494,53.268C23.271,41.11 28.098,34.777 37.975,34.27C38.145,34.261 38.313,34.237 38.477,34.197L38.477,25.264C38.477,24.436 39.149,23.764 39.977,23.764Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
-</vector>

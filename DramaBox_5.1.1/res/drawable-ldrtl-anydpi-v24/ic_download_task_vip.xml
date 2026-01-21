@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="13.517212dip" android:width="14.0dip" android:viewportWidth="29.0" android:viewportHeight="28.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$ic_download_task_vip__0" android:pathData="M28.03,0L8.03,0C3.611,-0 0.03,3.582 0.03,8L0.03,28L0.03,28L20.03,28C24.448,28 28.03,24.418 28.03,20L28.03,0L28.03,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
-    <path android:fillColor="#ff532c08" android:pathData="M24.668,7.321L14.399,22.837C14.292,22.98 14.124,23.067 13.944,23.078L11.535,23.078C11.361,23.069 11.207,22.966 11.135,22.813L4.727,7.348C4.665,7.201 4.75,7.078 4.908,7.078L12.248,7.078C12.409,7.078 12.48,7.194 12.4,7.332L11.359,8.843C11.278,9.006 11.267,9.192 11.325,9.363L13.493,14.9C13.551,15.044 13.671,15.059 13.758,14.926L18.775,7.323C18.882,7.181 19.047,7.093 19.227,7.082L24.529,7.082C24.692,7.078 24.754,7.188 24.668,7.321Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
-</vector>

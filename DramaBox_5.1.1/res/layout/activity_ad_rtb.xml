@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/activity_ad_rtb_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/videoPlayerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <VideoView android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
-    <com.storymatrix.drama.view.StatusView android:id="@id/statusView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:layout_gravity="end" android:id="@id/ivClose" android:background="@drawable/shape_rtb_ad_close_bg" android:padding="7.5dip" android:visibility="gone" android:layout_width="@dimen/dz_dp_30" android:layout_height="@dimen/dz_dp_30" android:layout_marginTop="@dimen/dz_dp_12" android:src="@drawable/rtb_close" android:layout_marginEnd="@dimen/dz_dp_20" />
-</FrameLayout>

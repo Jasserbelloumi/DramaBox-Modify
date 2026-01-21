@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="14.0dip" android:width="14.0dip" android:viewportWidth="14.0" android:viewportHeight="14.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$ic_chapter_vip_unlock__0" android:pathData="M14,0H6C2.686,0 0,2.686 0,6V14H10C12.209,14 14,12.209 14,10V0Z" />
-    <path android:fillColor="#fff5f5f5" android:pathData="M11.57,3.442L6.863,10.554C6.814,10.62 6.737,10.66 6.654,10.665H5.55C5.47,10.661 5.4,10.614 5.367,10.543L2.429,3.454C2.401,3.386 2.44,3.33 2.512,3.33H5.877C5.951,3.33 5.984,3.383 5.947,3.447L5.469,4.139C5.432,4.214 5.427,4.299 5.454,4.377L6.448,6.916C6.474,6.982 6.53,6.989 6.569,6.928L8.869,3.443C8.918,3.377 8.994,3.337 9.077,3.332H11.507C11.582,3.33 11.61,3.38 11.57,3.442Z" />
-</vector>

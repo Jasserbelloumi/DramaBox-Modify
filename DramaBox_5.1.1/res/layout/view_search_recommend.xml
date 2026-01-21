@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/dz_text_16" android:textColor="@color/color_FF111111_FFFFFF" android:id="@id/tv_title" android:tag="layout/view_search_recommend_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_you_might_like" android:layout_marginStart="@dimen/dz_dp_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:tag="layout/view_search_recommend_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dz_dp_20" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/tv_title" />
-</merge>

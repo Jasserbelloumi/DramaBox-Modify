@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="108.0dip" android:width="108.0dip" android:viewportWidth="216.0" android:viewportHeight="216.0" xmlns:aapt="http://schemas.android.com/aapt"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group>
-        <clip-path android:pathData="M0,0h216v216h-216z" />
-        <path android:fillColor="@drawable/$ic_ranking_hot_broadcast_bottom_bg__0" android:pathData="M221.75,158.36C221.75,146.63 215.3,120.7 201.29,94.49C201.04,103.26 193.87,124.49 188.6,130.14C185.07,120.25 184.15,54.21 96.29,32C101.65,97.68 35.65,96.72 35.65,167.58C35.66,204.1 57.37,237.19 91.06,252.02C83.61,208.54 126.92,202.98 119.92,158.21C165.56,185.29 176.3,216.94 163.96,253C200.39,237.87 224.67,200.06 221.76,158.36L221.75,158.36Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.85" android:fillType="nonZero" />
-    </group>
-</vector>

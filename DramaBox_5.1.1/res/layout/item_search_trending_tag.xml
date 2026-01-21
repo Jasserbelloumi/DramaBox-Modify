@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/dz_text_12" android:textColor="@color/color_60_FFFFFF" android:ellipsize="end" android:background="@drawable/shape_radius12_ff2b2b2e" android:paddingTop="@dimen/dz_dp_5" android:paddingBottom="@dimen/dz_dp_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flash Marriage" android:maxLines="1" android:includeFontPadding="false" android:paddingStart="@dimen/dz_dp_8" android:paddingEnd="@dimen/dz_dp_8"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

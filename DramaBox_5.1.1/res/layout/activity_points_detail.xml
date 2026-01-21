@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_points_detail_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.storymatrix.drama.view.TitleBarComponent android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" app:title="@string/str_points_detail_title" />
-    <com.storymatrix.drama.view.PullLoadMoreRecyclerView android:id="@id/smartRefresh" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/title_bar" />
-    <com.storymatrix.drama.view.StatusView android:id="@id/statusView" android:visibility="gone" android:layout_width="@dimen/dz_dp_0" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dz_dp_44" android:layout_marginBottom="@dimen/dz_dp_58" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

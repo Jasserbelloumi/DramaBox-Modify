@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:background="@color/color_F6F6F6_0F0F0F" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.storymatrix.drama.uiwidget.DzLottieAnimationView android:layout_gravity="center" android:id="@id/lottieView" android:layout_width="@dimen/dz_dp_24" android:layout_height="@dimen/dz_dp_24" android:layout_marginTop="@dimen/dz_dp_26" android:layout_marginBottom="@dimen/dz_dp_26" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/refresh" />
-</merge>

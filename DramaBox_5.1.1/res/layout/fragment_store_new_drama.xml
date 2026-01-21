@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/fragment_store_new_drama_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="horizontal" android:id="@id/tabLayout" android:paddingTop="@dimen/dz_dp_6" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dz_dp_16">
-        <TextView android:textSize="@dimen/dz_dp_14" android:textColor="@color/store_new_drama_text_color" android:gravity="center" android:id="@id/tvOnline" android:background="@drawable/store_new_drma_tab" android:paddingLeft="@dimen/dz_dp_10" android:paddingRight="@dimen/dz_dp_10" android:layout_width="wrap_content" android:layout_height="@dimen/dz_dp_27" android:text="@string/str_reserve_online" android:paddingHorizontal="@dimen/dz_dp_10" />
-        <TextView android:textSize="@dimen/dz_dp_14" android:textColor="@color/store_new_drama_text_color" android:gravity="center" android:id="@id/tvComingSoon" android:background="@drawable/store_new_drma_tab" android:paddingLeft="@dimen/dz_dp_10" android:paddingRight="@dimen/dz_dp_10" android:layout_width="wrap_content" android:layout_height="@dimen/dz_dp_27" android:text="@string/str_reserve_comingsoon" android:layout_marginStart="@dimen/dz_dp_8" android:paddingHorizontal="@dimen/dz_dp_10" />
-    </LinearLayout>
-    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dz_dp_45" />
-</FrameLayout>

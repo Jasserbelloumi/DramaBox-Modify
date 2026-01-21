@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:layout_width="71.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.sobot.chat.widget.image.SobotRCImageView android:id="@id/sobot_video_first_image" android:background="@color/sobot_transparent" android:layout_width="70.0dip" android:layout_height="40.0dip" android:src="@drawable/sobot_rich_item_vedoi_default" android:scaleType="centerCrop" app:sobot_round_corner_bottom_left="2.0dip" app:sobot_round_corner_bottom_right="2.0dip" app:sobot_round_corner_top_left="2.0dip" app:sobot_round_corner_top_right="2.0dip" />
-    <ImageView android:id="@id/iv_play" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/sobot_ic_play" android:layout_centerInParent="true" />
-</RelativeLayout>
