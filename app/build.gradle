@@ -1,10 +1,9 @@
+apply plugin: 'com.android.application'
 
-plugins {
-    id 'com.android.application'
-}
 android {
     namespace 'com.myflash.light'
     compileSdk 33
+
     defaultConfig {
         applicationId "com.myflash.light"
         minSdk 24
@@ -12,4 +11,16 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.9.0'
 }
