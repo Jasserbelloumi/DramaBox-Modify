@@ -1,11 +1,7 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.0'
-    }
+// الملف الرئيسي الآن أصبح بسيطاً جداً لمنع التضارب
+plugins {
+    id 'com.android.application' version '8.2.0' apply false
+    id 'com.android.library' version '8.2.0' apply false
 }
 
 tasks.register('clean', Delete) {
